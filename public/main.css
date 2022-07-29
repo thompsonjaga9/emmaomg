@@ -29,6 +29,10 @@
     align-items: center;
 }
 
+.head-list-mobile {
+    display: none;
+}
+
 .head-list ul {
     margin: 0 35px;
 }
@@ -255,12 +259,15 @@
 
 .recent-cont {
     width: 100%;
-    background-color: linear-gradient(179.63deg, rgba(32, 120, 145, 0.2) -3.3%, rgba(255, 255, 255, 0) 111.29%);
+    margin: auto;
+    padding-top: 155px;
+    background: linear-gradient(179.63deg, rgba(32, 120, 145, 0.2) -3.3%, rgba(255, 255, 255, 0) 111.29%);
 }
 
 .recent {
     width: 80%;
-    margin: 155px auto;
+    margin: auto;
+    padding-bottom: 350px ;
 }
 
 .poly {
@@ -288,3 +295,492 @@
     margin: auto;
     padding-top: 85px;
 }
+
+.faaji-cont {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.faaji-cont img[src="./images/ft 1.png"] {
+    position: relative;
+    bottom: 346px;
+    left: 120px;
+}
+
+.faaji-cont img[src="./images/Vector 2.png"] {
+    position: absolute;
+    top: 125px;
+    left: 0;
+}
+
+.faaji-cont img[src="./images/Mask group (1).png"] {
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+
+.faaji-cont img[src="./images/Mask group.png"] {
+    margin-left: 243px;
+}
+
+.faaji-cont img[src="./images/Group 13.png"] {
+    position: absolute;
+    top: -57px;
+    left: 25px;
+}
+
+.faaji-cont div p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    color: #424242;    
+}
+
+.faaji-cont div h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #424242;    
+}
+
+.faaji-cont div button {
+    background: #207891;
+    box-shadow: 0px 11px 48px 26px rgba(32, 120, 145, 0.2);
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 24px 74px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.newsletter-cont {
+    width: 100%;
+    position: relative;
+}
+
+.newsletter-cont img[src="./images/22.png"] {
+    position: absolute;
+    top: -30px;
+    left: 190px;
+}
+
+.newsletter-cont img[src="./images/Group 12.png"] {
+    position: absolute;
+    top: -35px;
+    right: 190px;
+}
+
+.newsletter {
+    width: 80%;
+    margin: auto;
+}
+
+.newsletter h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 94.9%;
+    text-align: center;
+    color: #424242;
+}
+
+.newsletter p {
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #424242;
+    margin-top: 19px;
+}
+
+.rect img {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding-top: 56px;
+    position: relative;
+
+}
+
+.rect button {
+    background: #2C90AC;
+    box-shadow: 7px 4px 25px 14px rgba(75, 23, 65, 0.1);
+    border-radius: 20px;
+    border: none;
+    padding: 24px 58px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    right: 273px;
+    top: 185px;
+}
+
+.copyright img[src="./images/jaga.png"] {
+    width: 100%;
+}
+
+.copyright {
+    background: #2C90AC;
+    margin-top: 117px;
+}
+
+.copyright p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .all-container {
+        width: 100%; 
+}
+
+.head {
+    margin: 20px auto;
+}
+
+.head-list ul {
+    display: none;
+}
+
+.head-list-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.head-list-mobile ul {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.head-list-mobile ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.head-list-mobile ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #424242;
+}
+
+.head-list-mobile ul li :hover {
+    color: #207891;
+}
+
+.head-list-mobile ul li .active {
+    color: #424242;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.hello {
+    width: 100%;
+    flex-direction: column;
+}
+
+.emma {
+    width: 80%;
+    margin: auto;
+}
+
+.hello div p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.hello div h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.hello div button {
+    margin-top: 30px;
+}
+
+.picture {
+    width: 100%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.picture img[src="./images/Vector.png"] {
+    width: 60%;
+    left: 50px;
+}
+
+.picture img[src="./images/image 2.png"] {
+    width: 70%;
+    bottom: -20px;
+    left: 75px;
+}
+
+.picture img[src="./images/image 3.png"] {
+    width: 70%;
+    right: 0;
+    bottom: -20px;
+}
+
+.picture img[src="./images/emma___5 1.png"] {
+    width: 70%;
+    top: 16px;
+    left: 20px;
+}
+
+.picture img[src="./images/Polygon 1.png"] {
+    top: 180px;
+    left: 70px;
+}
+
+.picture img[src="./images/Polygon 3.png"] {
+    top: 145px;
+    left: 80px;
+}
+
+.picture img[src="./images/Polygon 4.png"] {
+    top: 120px;
+    right: 160px;
+}
+
+.picture img[src="./images/Polygon 6.png"] {
+    top: 150px;
+    right: 170px;
+}
+
+.picture img[src="./images/Polygon 8.png"] {
+    top: 160px;
+    right: 130px;
+}
+
+.picture img[src="./images/Polygon 10.png"] {
+    top: 180px;
+    right: 105px;
+}
+
+.picture img[src="./images/Polygon 11.png"] {
+    top: 120px;
+    left: 105px;
+}
+
+.picture img[src="./images/Polygon 12.png"] {
+    top: 110px;
+    left: 70px;
+}
+
+.product-img {
+    flex-direction: column;
+    width: 100%;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.shoutout {
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.shoutout div img {
+    width: 100%;
+}
+
+.shoutout div h1 {
+    font-size: 46px;
+    margin-top: 30px;
+    line-height: 60px;
+}
+
+.shoutout div button {
+    padding: 18px 50px;
+}
+
+.shoutout-cont img[src="./images/Group 2.png"] {
+    top: 25px;
+    right: 20px;
+    width: 10%;
+}
+
+.shoutout-cont img[src="./images/Group 3.png"] {
+    top: 25px;
+    left: 20px;
+    width: 10%;
+}
+
+.recent-cont {
+    padding-top: 50px;
+}
+
+.recent {
+    padding-bottom: 150px;
+}
+
+.poly {
+    width: 70%;
+}
+
+.poly h3 {
+    font-size: 18px;
+}
+
+.rectangle {
+    width: 85%;
+    margin: auto;
+    padding-top: 43px;
+}
+
+.rectangle img[src="./images/Rectangle 9.png"] {
+    display: none;
+}
+
+.rectangle img[src="./images/Rectangle 10.png"] {
+    display: none;
+}
+
+.faaji-cont {
+    flex-direction: column;
+}
+
+.faaji-cont img[src="./images/Vector 2.png"] {
+    top: 34px;
+    left: 34px;
+    width: 50%;
+}
+
+.faaji-cont img[src="./images/Group 13.png"] {
+    top: -58px;
+    left: 68px;
+    width: 15%;
+}
+
+.faaji-cont img[src="./images/Mask group (1).png"] {
+    top: 15px;
+    left: 60px;
+    width: 65%;
+}
+
+.faaji-cont img[src="./images/Mask group.png"] {
+    margin-left: 129px;
+    width: 50%;
+}
+
+.faaji-cont img[src="./images/ft 1.png"] {
+    bottom: 204px;
+    left: 83px;
+    width: 55%;
+}
+
+.faaji-cont div p {
+    font-size: 55px;
+    line-height: 68px;
+}
+
+.faaji-cont div h4 {
+    font-size: 55px;
+    line-height: 68px;
+}
+
+.faaji-cont div button {
+    padding: 17px 55px;
+}
+
+.newsletter {
+    width: 90%;
+    margin-top: 150px;
+}
+
+.newsletter-cont img[src="./images/22.png"] {
+    top: -75px;
+    left: 290px;
+    width: 15%;
+}
+
+.newsletter-cont img[src="./images/Group 12.png"] {
+    top: -75px;
+    right: 303px;
+    width: 15%;
+}
+
+.newsletter h1 {
+    font-size: 35px;
+}
+
+.newsletter p {
+    width: 80%;
+}
+
+.rect img {
+    display: none;
+}
+
+.rect button {
+    padding: 17px 53px;
+    right: 94px;
+    top: 261px;
+}
+
+.copyright {
+    position: relative;
+}
+
+.copyright img {
+    position: absolute;
+    top: 0;
+}
+
+.copyright p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+}
+
+   
