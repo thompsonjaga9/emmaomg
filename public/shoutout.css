@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-.about {
+.shoutout {
     background: linear-gradient(179.63deg, rgba(32, 120, 145, 0.2) -3.3%, rgba(255, 255, 255, 0) 111.29%);
     
 }
@@ -73,136 +73,186 @@
     padding: 14px 26px;
 }
 
-.emmanuel-cont {
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    margin: auto;
-    padding-top: 233px;
+.birthday {
+    width: 100%;
+    position: relative;
 }
 
-.emmanuel h1 {
-    width: 55%;
+.birthday h1 {
+    width: 50%;
+    margin: auto;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
+    font-size: 72px;
+    line-height: 101.4%;
+    text-align: center;
     color: #424242;
+    padding-top: 217px;
+    padding-bottom: 112px;
 }
 
-.emmanuel p {
-    width: 42%;
-    margin-top: 50px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 230.4%;
-    color: #424242;
+.birthday img[src="./images/Group 19.png"] {
+    position: absolute;
+    top: 205px;
+    left: 335px;
 }
 
-.emma-photo {
+.birthday img[src="./images/shoutout.png"] {
+    position: absolute;
+    top: 168px;
+    right: 382px;
+}
+
+.keyboard-cont {
+    width: 100%;
+}
+
+.keyboard {
     position: relative;
 }
 
-.emma-photo img[src="./images/Vector.png" ] {
-    position: absolute;
-    top: 0;
-    right: -10px;
+.keyboard img {
+    width: 100%;
 }
 
-.emma-photo img[src="./images/Mask group2.png"] {
-    position: absolute;
-    bottom: 280px;
-    right: 285px;
-}
-
-.emma-photo img[src="./images/emma___3 1.png"] {
-    position: absolute;
-    top: 0;
-    right: -45px;
-}
-
-.emma-photo img[src="./images/Group 18 (1).png"] {
-    position: absolute;
-    top: -45px;
-    right: 340px;
-} 
-
-.emma-photo img[src="./images/Group 18.png"] {
-    position: absolute;
-    top: -160px;
-    right: 60px;
-}
-
-.edunjobi-cont {
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    margin: auto;
-    padding-top: 92px;
-}
-
-.edunjobi-photo {
-    position: relative;
-}
-
-.edunjobi-photo img[src="./images/Vector 3.png"] {
-    position: absolute;
-    top: 210px;
-    left: -25px;
-}
-
-.edunjobi-photo img[src="./images/Mask group 3.png"] {
-    position: absolute;
-    bottom: 105px;
-    left: -30px;
-}
-
-.edunjobi-photo img[src="./images/e1 1.png"] {
+.keyboard img[src="./images/Group 21.png"] {
     position: absolute;
     bottom: -60px;
-    left: -40px;
+    left: 0;
 }
 
-.edunjobi-photo img[src="./images/Group 19 3.png"] {
-    position: absolute;
-    top: 275px;
-    left: 465px;
+.studio-cont {
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 194px;
 }
 
-.edunjobi-p {
-    width: 42%;
-    padding-top: 114px;
+.studio {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.edunjobi-p p {
+.studio div {
+    width: 27%;
+    background: #FFFFFF;
+    box-shadow: 5px -2px 60px 14px rgba(32, 120, 145, 0.12);
+    border-radius: 30px;
+    padding-top: 70px;
+}
+
+.studio div h3 {
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #207891;
+}
+
+.studio .plus p {
+    width: 70%;
+}
+
+.studio div p {
+    width: 58%;
+    margin: auto;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 230.4%;
+    font-size: 14px;
+    line-height: 192.9%;
+    text-align: center;
     color: #424242;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
-.edunjobi-p div {
-    padding-top: 50px;
-}
-
-.edunjobi-p div i {
-    margin-right: 15px;
-    color: #828282;
-}
-
-.product-img {
+.studio div button {
+    border: 1px solid #207891;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #207891;
+    padding: 14px 53px;
+    margin: 52px auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 100px auto;
-    padding-top: 125px;
+}
+
+.studio-acapela {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+.studio-acapela div {
+    width: 27%;
+    background: #FFFFFF;
+    box-shadow: 5px -2px 60px 14px rgba(32, 120, 145, 0.12);
+    border-radius: 30px;
+    padding-top: 70px;
+}
+
+.studio-acapela div h3 {
+    width: 74%;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #207891;
+}
+
+.studio-acapela div p {
+    width: 58%;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 192.9%;
+    text-align: center;
+    color: #424242;
+    padding-top: 30px;
+}
+
+.studio-acapela div button {
+    border: 1px solid #207891;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #207891;
+    padding: 14px 53px;
+    margin: 52px auto;
+    display: flex;
+}
+
+.studio-acapela .options h3 {
+    width: 63%;
+}
+
+.studio-acapela .options button {
+    margin-top: 79px;
+}
+
+.studio-acapela .option button {
+    margin-top: 79px;
 }
 
 .edunjobi-recent {
@@ -362,6 +412,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin: auto;
     padding-top: 20px;
 }
 
@@ -396,126 +447,55 @@
     /* font-size: 14px; */
 }
 
-.emmanuel-cont {
-    flex-direction: column;
-    padding-top: 55px;
-}
-
-.emmanuel {
-    position: relative;
-}
-
-.emmanuel h1 {
-    width: 100%;
-    font-size: 50px;
-    line-height: 65px;
-    padding-bottom: 450px;
-}
-
-.emmanuel p {
-    width: 100%;
-    line-height: 30px;
-    font-size: 13px;
-    margin-top: 25px;
-}
-
-.emma-photo {
-    position: none;
-}
-
-.emma-photo img[src="./images/Vector.png"] {
+.birthday h1 {
     width: 80%;
-    top: -905px;
-    right: 20px;
-    
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.emma-photo img[src="./images/Mask group2.png"] {
-    width: 45%;
-    bottom: 647px;
-    right: 153px;
+.birthday img[src="./images/Group 19.png"] {
+    top: 30px;
+    left: 5px;
+    width: 13%;
 }
 
-.emma-photo img[src="./images/emma___3 1.png"] {
-    width: 90%;
-    top: -922px;
-    right: 20px;
+.birthday img[src="./images/shoutout.png"] {
+    top: 30px;
+    right: 35px;
+    width: 30%;
 }
 
-.emma-photo img[src="./images/Group 18 (1).png"] {
-    width: 15%;
-    top: -941px;
-    right: 209px;
-} 
-
-.emma-photo img[src="./images/Group 18.png"] {
-    width: 10%;
-    top: -952px;
-    right: 70px;
+.keyboard img[src="./images/Group 21.png"] {
+    top: 94px;
 }
 
-.edunjobi-cont {
+.studio-cont {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.studio {
     flex-direction: column;
-    padding-top: 115px;
 }
 
-.edunjobi-photo {
-    margin-top: 200px;
-}
-
-.edunjobi-photo img[src="./images/Vector 3.png"] {
-    width: 90%;
-    top: -250px;
-    left: -5px;
-}
-
-.edunjobi-photo img[src="./images/Mask group 3.png"] {
-    width: 50%;
-    bottom: -85px;
-    left: 15px;
-}
-
-.edunjobi-photo img[src="./images/e1 1.png"] {
+.studio div {
     width: 100%;
-    bottom: -162px;
-    left: 10px;
+    margin-top: 20px;
 }
 
-.edunjobi-photo img[src="./images/Group 19 3.png"] {
-    width: 15%;
-    top: -220px;
-    left: 240px;
-}
-
-.edunjobi-p {
-    width: 100%;
-    margin-top: 50px;
-}
-
-.edunjobi-p p {
-    font-size: 15px;
-    line-height: 35px;
-    padding-top: 20px;
-}
-
-.edunjobi-p div {
-    padding-top: 20px;
-}
-
-.product-img {
+.studio-acapela {
     flex-direction: column;
-    width: 100%;
-    margin: 50px auto;
     padding-top: 0;
 }
 
-.product-img img {
+.studio-acapela div {
     width: 100%;
+    margin-top: 20px;
 }
 
 .recent {
     padding-top: 50px;
-    /* padding-bottom: 200px; */
 }
 
 .poly {

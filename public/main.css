@@ -486,12 +486,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    margin: auto;
+    width: 100%;
 }
 
 .head-list-mobile ul {
-    width: 100%;
+    width: 90%;
     margin: auto;
     text-align: center;
 }
@@ -505,7 +504,7 @@
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 13px;
     line-height: 22px;
     color: #424242;
@@ -517,8 +516,8 @@
 
 .head-list-mobile ul li .active {
     color: #424242;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 600;
+    /* font-size: 16px; */
 }
 
 .hello {
