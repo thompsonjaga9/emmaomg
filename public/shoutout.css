@@ -34,7 +34,15 @@
 }
 
 .head-list ul {
+    position: relative;
     margin: 0 35px;
+}
+
+.head-list ul img[src="./images/Rectangle 4.png"] {
+    width: 5%;
+    position: absolute;
+    top: 25px;
+    left: 433px;
 }
 
 .head-list ul li {
@@ -59,6 +67,7 @@
 .head-list ul li .active {
     color: #424242;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .head-list button {
@@ -71,6 +80,7 @@
     border: 1px solid #207891;
     border-radius: 10px;
     padding: 14px 26px;
+    background: none;
 }
 
 .birthday {
@@ -144,7 +154,7 @@
 }
 
 .studio div h3 {
-    width: 70%;
+    width: 50%;
     margin: auto;
     font-family: 'Montserrat';
     font-style: normal;
@@ -156,6 +166,14 @@
 }
 
 .studio .plus p {
+    width: 73%;
+}
+
+.studio .plus h3 {
+    width: 60%;
+}
+
+.studio .premium h3 {
     width: 70%;
 }
 
@@ -175,6 +193,7 @@
 .studio div button {
     border: 1px solid #207891;
     border-radius: 10px;
+    background-color: #FFFFFF;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -216,7 +235,7 @@
 }
 
 .studio-acapela div p {
-    width: 58%;
+    width: 57%;
     margin: auto;
     font-family: 'Montserrat';
     font-style: normal;
@@ -231,6 +250,7 @@
 .studio-acapela div button {
     border: 1px solid #207891;
     border-radius: 10px;
+    background-color: #FFFFFF;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -244,7 +264,7 @@
 }
 
 .studio-acapela .options h3 {
-    width: 63%;
+    width: 45%;
 }
 
 .studio-acapela .options button {
@@ -338,13 +358,14 @@
     margin-top: 19px;
 }
 
-.rect img {
-    display: flex;
-    width: 60%;
+.rect {
+    width: 63%;
     margin: auto;
-    padding-top: 56px;
-    position: relative;
+     position: relative;
+}
 
+.rect img {
+    padding-top: 56px;
 }
 
 .rect button {
@@ -361,8 +382,8 @@
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    right: 273px;
-    top: 185px;
+    right: 14px;
+    top: 60px;
 }
 
 .copyright img[src="./images/jaga.png"] {
@@ -420,6 +441,14 @@
     width: 90%;
     margin: auto;
     text-align: center;
+    position: relative;
+}
+
+.head-list-mobile ul img[src="./images/Rectangle 4.png"] {
+    width: 5%;
+    position: absolute;
+    top: 20px;
+    left: 212px;
 }
 
 .head-list-mobile ul li {
@@ -443,8 +472,7 @@
 
 .head-list-mobile ul li .active {
     color: #424242;
-    font-weight: 600;
-    /* font-size: 14px; */
+    font-weight: 700;
 }
 
 .birthday h1 {
@@ -484,6 +512,10 @@
     margin-top: 20px;
 }
 
+.studio div p {
+    width: 56%;
+}
+
 .studio-acapela {
     flex-direction: column;
     padding-top: 0;
@@ -492,6 +524,10 @@
 .studio-acapela div {
     width: 100%;
     margin-top: 20px;
+}
+
+.studio-acapela div p {
+    width: 56%;
 }
 
 .recent {
