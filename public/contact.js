@@ -1,11 +1,18 @@
-// script.js
-function sendMail() {
-    var params = {
-        from_name : document.getElementById("name").value,
-        email_id : document.getElementById("email").value,
-        message : document.getElementById("message").value,
-    }
-    emailjs.send("service_jdr9aq4", "template_2j62v6r", params).then(function (res) {
-        alert("success " + res.status);
-    })
-}
+;window.onload = function () {
+  document
+    .getElementById("contact-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      // generate a five digit number for the contact_number variable
+      this.contact_number.value = (Math.random() * 100000) | 0;
+      // these IDs from the previous steps
+      emailjs.sendForm("service_jdr9aq4", "template_2j62v6r", this).then(
+        function () {
+          alert("Message sent Successfully!");
+        },
+        function (error) {
+          alert("FAILED...", error);
+        }
+      );
+    });
+};
